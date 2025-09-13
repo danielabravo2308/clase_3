@@ -45,16 +45,13 @@ pytest -x
 pytest --headed 
 ```
 
-8. Ejecutar por nombre del test case 
-
-
-Generar reportes de ejecucion de test cases con HTML <br>
+8. Generar reportes de ejecucion de test cases con HTML (Opcion 1)<br>
 ``` 
 pip install pytest-html
 pytest --html=pytest_report.html
 ``` 
 
-Generar reportes de ejecucion de test cases con Allure Windows <br>
+9. Generar reportes de ejecucion de test cases con Allure Windows (Opcion 2) <br>
 ``` 
 pip install allure-pytest
 npm install -g allure-commandline --save-dev
