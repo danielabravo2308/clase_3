@@ -15,7 +15,7 @@ Nota: Dar enter a todas las opciones  y opcion yes al finalizar
 npm install cypress --save-dev
 ```
 
-3. Abrir el deamon de Cypress
+3. Ejecutar el deamon de Cypress (Navegador donde se mostrara la prueba)
 ```
 npm cypress open
 ```
