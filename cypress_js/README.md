@@ -1,16 +1,21 @@
 # Prueba en Cypress
 
-Instalar Cypress con el comando
+## Implementacion de Test Cases con JavaSript y el Framework Cypress
+
+Nota Principal: Es necesario desactivar entornos virtuales creados de los otros proyectos
+
+1. Crea paquete package dentro del directorio donde estan las dependencias
+```
+npm init
+```
+Nota: Dar enter a todas las opciones  y opcion yes al finalizar
+
+2. Instalar Cypress con el comando
 ```
 npm install cypress --save-dev
 ```
 
-Instalar dependencias
-```
-npm install 
-```
-
-Abrir el deamon de Cypress
+3. Abrir el deamon de Cypress
 ```
 npm cypress open
 ```
