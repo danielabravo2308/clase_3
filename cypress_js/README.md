@@ -17,5 +17,5 @@ npm install cypress --save-dev
 
 3. Ejecutar el deamon de Cypress (Navegador donde se mostrara la prueba)
 ```
-npm cypress open
+npx cypress open
 ```
